@@ -19,7 +19,7 @@ resource "azurerm_windows_virtual_machine" "boston-vm" {
   source_image_reference {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
-    sku       = "2016-Datacenter"
+    sku       = "2019-Datacenter"
     version   = "latest"
   }
 
@@ -45,7 +45,7 @@ resource "azurerm_windows_virtual_machine" "atlanta-vm" {
   source_image_reference {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
-    sku       = "2016-Datacenter"
+    sku       = "2019-Datacenter"
     version   = "latest"
   }
 
