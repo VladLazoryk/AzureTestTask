@@ -2,7 +2,7 @@
 $parameters = @{
     'resourceGroupname'  = 'xxxxxxx'
     'extensionname'      = 'IIS'
-    'vmname'             = 'TESTVM'
+    'vmname'             = 'boston-vm'
     'location'           = 'WestEurope'
     'publisher'          = 'Microsoft.Compute'
     'extensiontype'      = 'CustomScriptExtension'
